@@ -1,0 +1,4 @@
+{
+    "/login": "/users",
+    "/accounts/:accountId/meter-readings": "/meterReadings?accountId=:accountId"
+}

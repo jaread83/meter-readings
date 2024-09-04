@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",
+      "lib": ["ES2020", "DOM", "DOM.Iterable"],
+      "module": "CommonJS",              // CommonJS for Jest compatibility
+      "moduleResolution": "node",        // Node module resolution for Jest
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "jsx": "react-jsx",
+  
+      "strict": true,
+      "esModuleInterop": true,           // Enable interoperability between CommonJS and ESModules
+      "allowSyntheticDefaultImports": true
+    },
+    "include": ["src"],
+    "exclude": ["node_modules"]
+}  

@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "accountId": "1234",
+      "userName": "reactdeveloper",
+      "firstName": "React",
+      "lastName": "Developer",
+      "password": "password"
+    }
+  ],
+  "meterReadings": [
+    {
+      "accountId": "1234",
+      "meterReadingId": 1,
+      "meterReadingDate": "2024-04-19",
+      "meterReadingType": "Gas",
+      "readingValue": "02156",
+      "createdDateTime": "2024-04-19 09:51:23.797"
+    },
+    {
+      "accountId": "1234",
+      "meterReadingId": 2,
+      "meterReadingDate": "2024-04-19",
+      "meterReadingType": "Electricity",
+      "readingValue": "09856",
+      "createdDateTime": "2024-04-19 09:52:01.298"
+    }
+  ]
+}
