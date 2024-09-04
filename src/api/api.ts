@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:3001'; // Example placeholder
+const API_BASE_URL = 'http://localhost:3001';
 
 // Dummy function to simulate login
 export async function login(username: string, password: string) {

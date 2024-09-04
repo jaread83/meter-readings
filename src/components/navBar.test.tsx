@@ -2,7 +2,7 @@ import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
-import Navbar from './Navbar';
+import Navbar from './NavBar';
 import { store } from '../app/store';
 import { loginSuccess } from '../features/auth/authSlice';
 

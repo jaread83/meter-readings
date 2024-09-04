@@ -24,7 +24,7 @@ const MeterReadingForm: React.FC<MeterReadingFormProps> = ({ type, onSubmit }) =
     }
 
     onSubmit({ reading: readingNumber, type, date: new Date() });
-    setReading(''); // Reset the form
+    setReading('');
     setError(null);
   };
 
